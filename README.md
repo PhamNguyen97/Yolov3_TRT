@@ -65,7 +65,9 @@ with trt.Builder(TRT_LOGGER) as builder, builder.create_network() as network, tr
 - [ ] Train yolov3 on 1-class for product-specific model, thus increase speed.
 
 ## Refference:
-1. https://jkjung-avt.github.io/tensorrt-yolov3/
+1. https://jkjung-avt.github.io/tensorrt-yolov3/   
+As showed in [jkjung-avt/tensorrt_demos](https://github.com/jkjung-avt/tensorrt_demos) git repo, he test yolov3 on Jetson Nano and get 20FPS for yolov3-tiny-288 (FP16) and 5FPS for yolov3-288 (FP16).   
+![yolov3 jetson nano performance](yolov3_performance.JPG)
 
 
 
