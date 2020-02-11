@@ -33,7 +33,7 @@ wget https://pjreddie.com/media/files/yolov3.weights
 cd ..
 ```   
    
-**4. Convert yolov3 to ONNX:**
+**4. Convert yolov3 to ONNX:**   
 Change .cfg and .weights path (downloaded in [3.]) in *yolov3_to_onnx.py* and run:
 ```
 python3 yolov3_to_onnx.py
