@@ -23,7 +23,7 @@ swapon /swapfile
 swapon -show
 sudo ./set_swap.sh
 ```
-**3. Clone yolov3-tensorrt sample from this [repo](https://github.com/penolove/yolov3-tensorrt), download yolov3.weights file:**
+**3. Clone yolov3-tensorrt sample from this [repo](https://github.com/penolove/yolov3-tensorrt), download yolov3.weights file from [YOLO site](https://pjreddie.com/darknet/yolo/):**
 ```
 git clone https://github.com/penolove/yolov3-tensorrt   
 cd yolov3-tensorrt
