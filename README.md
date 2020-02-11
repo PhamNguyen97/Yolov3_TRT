@@ -59,7 +59,7 @@ with trt.Builder(TRT_LOGGER) as builder, builder.create_network() as network, tr
 - [x] Be able to run pytorch yolov3 model on Jetson Nano.
 - [x] Convert model to TensortRT Engine for system optimization.
 - [x] Be able to run FP16 mode for 2x faster speed.
-- [ ] Use ONNX-simplifier for light ONNX graph before converting it into tensorRT version.
+- [ ] Use [ONNX-simplifier](https://github.com/daquexian/onnx-simplifier) for light ONNX graph before converting it into tensorRT version.
 - [ ] Try out lower input resolution for speed test (288x288) to compare with SSD300 MobileNet.
 - [ ] Do speed and accuracy test on yolov3-288 version.
 - [ ] Train yolov3 on 1-class for product-specific model, thus increase speed.
